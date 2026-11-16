@@ -1,0 +1,356 @@
+[
+  {
+    "event_id": "evt-01",
+    "occurred_at": "2024-07-01T14:32:00-03:00",
+    "user_id": "usr-1001",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-02",
+    "occurred_at": "2024-07-01T14:40:00-03:00",
+    "user_id": "usr-1001",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-03",
+    "occurred_at": "2024-07-01T19:11:00-03:00",
+    "user_id": "usr-1012",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-04",
+    "occurred_at": "2024-07-01T19:18:00-03:00",
+    "user_id": "usr-1012",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-05",
+    "occurred_at": "2024-07-01T19:24:00-03:00",
+    "user_id": "usr-1012",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-06",
+    "occurred_at": "2024-07-02T01:09:00-03:00",
+    "user_id": "usr-1006",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-07",
+    "occurred_at": "2024-07-02T01:11:00-03:00",
+    "user_id": "usr-1006",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-08",
+    "occurred_at": "2024-07-02T01:13:00-03:00",
+    "user_id": "usr-1006",
+    "name": "produto_visto"
+  },
+  {
+    "occurred_at": "2024-07-02T01:18:00-03:00",
+    "user_id": "usr-1006",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-10",
+    "occurred_at": "2024-07-02T01:19:00-03:00",
+    "user_id": "usr-1006",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-11",
+    "occurred_at": "2024-07-02T01:20:00-03:00",
+    "user_id": "usr-1006",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-12",
+    "occurred_at": "2024-07-02T01:24:00-03:00",
+    "user_id": "usr-1006",
+    "name": "produto_adicionado"
+  },
+  {
+    "event_id": "evt-13",
+    "occurred_at": "2024-07-02T01:30:00-03:00",
+    "user_id": "usr-1006",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-14",
+    "occurred_at": "2024-07-02T05:28:00-03:00",
+    "user_id": "usr-1009",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-15",
+    "occurred_at": "2024-07-02T05:30:00-03:00",
+    "name": "produto_adicionado"
+  },
+  {
+    "event_id": "evt-16",
+    "occurred_at": "2024-07-02T05:39:00-03:00",
+    "user_id": "usr-1009",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-17",
+    "occurred_at": "2024-07-02T05:46:00-03:00",
+    "user_id": "usr-1009",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-18",
+    "occurred_at": "2024-07-02T05:57:00-03:00",
+    "user_id": "usr-1001",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-19",
+    "occurred_at": "2024-07-02T06:00:00-03:00",
+    "user_id": "usr-1001",
+    "name": "produto_adicionado"
+  },
+  {
+    "occurred_at": "2024-07-02T06:09:00-03:00",
+    "user_id": "usr-1001",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-21",
+    "occurred_at": "2024-07-02T06:11:00-03:00",
+    "user_id": "usr-1001",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-22",
+    "occurred_at": "2024-07-02T10:30:00-03:00",
+    "user_id": "usr-1004",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-23",
+    "occurred_at": "2024-07-02T10:32:00-03:00",
+    "user_id": "usr-1004",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-24",
+    "occurred_at": "2024-07-02T10:35:00-03:00",
+    "user_id": "usr-1004",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-25",
+    "occurred_at": "2024-07-02T11:52:00-03:00",
+    "user_id": "usr-1010",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-26",
+    "occurred_at": "2024-07-02T11:58:00-03:00",
+    "user_id": "usr-1010",
+    "name": "produto_adicionado"
+  },
+  {
+    "event_id": null,
+    "occurred_at": "2024-07-02T12:00:00-03:00",
+    "user_id": "usr-1010",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-28",
+    "occurred_at": "2024-07-02T12:09:00-03:00",
+    "user_id": "usr-1010",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-29",
+    "occurred_at": "2024-07-02T14:13:00-03:00",
+    "user_id": "usr-1008",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-30",
+    "occurred_at": "2024-07-02T14:22:00-03:00",
+    "user_id": "usr-1008",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-31",
+    "occurred_at": "2024-07-02T14:28:00-03:00",
+    "user_id": "usr-1011",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-32",
+    "occurred_at": "2024-07-02T14:29:00-03:00",
+    "user_id": "usr-1008",
+    "name": "produto_adicionado"
+  },
+  {
+    "event_id": "evt-33",
+    "occurred_at": "2024-07-02T14:32:00-03:00",
+    "user_id": "usr-1008",
+    "name": "pedido_iniciado"
+  },
+  {
+    "occurred_at": "2024-07-02T14:36:00-03:00",
+    "user_id": "usr-1011",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-35",
+    "occurred_at": "2024-07-02T14:37:00-03:00",
+    "user_id": "usr-1011",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-36",
+    "occurred_at": "2024-07-02T14:41:00-03:00",
+    "user_id": "usr-1012",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-37",
+    "occurred_at": "2024-07-02T14:46:00-03:00",
+    "user_id": "usr-1012",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-38",
+    "occurred_at": "2024-07-02T14:54:00-03:00",
+    "user_id": "usr-1012",
+    "name": "produto_adicionado"
+  },
+  {
+    "event_id": "evt-39",
+    "occurred_at": "2024-07-02T14:56:00-03:00",
+    "user_id": "usr-1012",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-40",
+    "occurred_at": "2024-07-02T14:57:00-03:00",
+    "user_id": "usr-1012",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-41",
+    "occurred_at": "2024-07-02T18:19:00-03:00",
+    "user_id": "usr-1008",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "",
+    "occurred_at": "2024-07-02T18:24:00-03:00",
+    "user_id": "usr-1008",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-43",
+    "occurred_at": "2024-07-02T18:31:00-03:00",
+    "user_id": "usr-1008",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-44",
+    "occurred_at": "2024-07-02T23:58:00-03:00",
+    "user_id": "usr-1001",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-45",
+    "occurred_at": "2024-07-03T00:07:00-03:00",
+    "user_id": "usr-1001",
+    "name": "produto_adicionado"
+  },
+  {
+    "event_id": "evt-46",
+    "occurred_at": "2024-07-03T00:13:00-03:00",
+    "user_id": "usr-1001",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-47",
+    "occurred_at": "2024-07-03T00:19:00-03:00",
+    "user_id": "usr-1001",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-48",
+    "occurred_at": "2024-07-03T05:22:00-03:00",
+    "user_id": "usr-1001"
+  },
+  {
+    "event_id": "evt-49",
+    "occurred_at": "2024-07-03T05:29:00-03:00",
+    "user_id": "usr-1001",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-50",
+    "occurred_at": "2024-07-03T06:46:00-03:00",
+    "user_id": "usr-1008",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-51",
+    "occurred_at": "2024-07-03T06:50:00-03:00",
+    "user_id": "usr-1008",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-52",
+    "occurred_at": "2024-07-03T06:52:00-03:00",
+    "user_id": "usr-1008",
+    "name": "produto_adicionado"
+  },
+  {
+    "event_id": "evt-53",
+    "user_id": "usr-1008",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-54",
+    "occurred_at": "2024-07-03T07:06:00-03:00",
+    "user_id": "usr-1008",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-55",
+    "occurred_at": "2024-07-03T13:24:00-03:00",
+    "user_id": "usr-1006",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-56",
+    "occurred_at": "2024-07-03T13:27:00-03:00",
+    "user_id": "usr-1006",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-57",
+    "occurred_at": "2024-07-03T13:31:00-03:00",
+    "user_id": "usr-1006",
+    "name": "pedido_iniciado"
+  },
+  {
+    "event_id": "evt-58",
+    "occurred_at": "2024-07-03T13:35:00-03:00",
+    "user_id": "usr-1006",
+    "name": "pedido_finalizado"
+  },
+  {
+    "event_id": "evt-59",
+    "occurred_at": "2024-07-03T14:46:00-03:00",
+    "user_id": "usr-1012",
+    "name": "produto_visto"
+  },
+  {
+    "event_id": "evt-60",
+    "occurred_at": "2024-07-03T14:51:00-03:00",
+    "user_id": "usr-1012",
+    "name": "produto_visto"
+  }
+]
