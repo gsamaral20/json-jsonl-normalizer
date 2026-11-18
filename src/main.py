@@ -35,6 +35,41 @@ def load_events(file_path):
 
     return events
 
+# Split events into accepted and rejected based on the required fields
+def validate_events(events):
+    # Fields every event must have, filled in
+    required_fields = ['event_id', 'occurred_at', 'user_id', 'name']
+
+    rejected_count = 0
+    accepted_count = 0
+    accepted_events = []
+    rejected_events = []
+
+    for event in events:
+        # True only if every required field exists and is not empty
+        is_valid = all(event.get(field) for field in required_fields)
+
+        if is_valid:
+            accepted_count += 1
+            accepted_events.append(event)
+        else:
+            # Missing event_id (or any other field): reject, never invent a value
+            rejected_count += 1
+            rejected_events.append(event)
+
+    return rejected_count, accepted_count, accepted_events, rejected_events
+
+# Convert each accepted event into a JSON line with keys in alphabetical order
+def standardize_events(accepted_events):
+    standardized_events = []
+
+    for valid_event in accepted_events:
+        # sort_keys=True: same key order every time; no indent: one event per line
+        standardized_event = json.dumps(valid_event, sort_keys=True)
+        standardized_events.append(standardized_event)
+
+    return standardized_events
+
 # Folder where the input files arrive
 input_dir = "data/input/"
 file_paths = list_input_files(input_dir)
@@ -42,5 +77,9 @@ file_paths = list_input_files(input_dir)
 
 for file_path in file_paths:
     events = load_events(file_path)
-    print("###########")
-    print(events)
+    rejected_count, accepted_count, accepted_events, rejected_events = validate_events(events)
+    standardized_events = standardize_events(accepted_events)
+    
+print("rejected_count", rejected_count)
+print("accepted_count", accepted_count)
+print(standardize_events)
