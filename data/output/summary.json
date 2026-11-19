@@ -1,0 +1,6 @@
+{
+    "events_read": 60,
+    "events_accepted": 52,
+    "events_rejected": 8,
+    "rejection_reason": "missing fields"
+}
